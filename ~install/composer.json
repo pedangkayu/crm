@@ -1,0 +1,23 @@
+{
+    "name": "sourav/codeigniter-installer",
+    "description": "CodeIgniter application installer - supported version 2x & 3x",
+    "type": "project",
+    "require": {
+        "php": ">= 5.3"
+    },
+    "license": "sourav.diubd@gmail.com",
+    "authors": [
+        {
+            "name": "Sourav",
+            "email": "sourav.diubd@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+
+}
