@@ -148,7 +148,7 @@ class Invoices_Model extends CI_Model {
 			$i++;
 		};
 		//LOG
-		$staffname = 'Ciuis CRM Recurring';
+		$staffname = 'CRM Recurring';
 		$this->db->insert( 'logs', array(
 			'date' => date( 'Y-m-d H:i:s' ),
 			'detail' => ( '<a href="#"> ' . $staffname . '</a> ' . lang( 'added' ) . ' <a href="invoices/invoice/' . $invoice . '">' . lang( 'invoiceprefix' ) . '-' . $invoice . '</a>.' ),

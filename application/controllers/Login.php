@@ -1,5 +1,9 @@
 <?php
 defined( 'BASEPATH' )OR exit( 'No direct script access allowed' );
+if ( function_exists( 'date_default_timezone_set' ) )
+date_default_timezone_set('Asia/Jakarta');
+
+
 class Login extends CI_Controller {
 
 

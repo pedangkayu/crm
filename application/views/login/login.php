@@ -21,7 +21,7 @@
 				<div class="lg-content">
 					<h2><?php echo lang('logintitle')?></h2>
 					<p class="text-muted"><?php echo lang('loginhelptext')?></p>
-					<a href="http://www.ciuis.com/" class="btn btn-warning p-l-20 p-r-20"><?php echo lang('loginhelpbutton')?></a>
+					<a href="#" class="btn btn-warning p-l-20 p-r-20"><?php echo lang('loginhelpbutton')?></a>
 				</div>
 			</div>
 			<div style="float: right; margin-top: 5%;" class="main-content container-fluid col-md-8">
